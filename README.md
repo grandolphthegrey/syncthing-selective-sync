@@ -54,3 +54,6 @@ This script will create the following .txt files:
 * `~/Music/.selectsync/Music_Full_Contents.txt`
 
 Users can then edit the .stignore patterns by looking at the contents of the .txt files to determine what information to be selectively sync'ed to the node.
+
+# Conflict Detection
+The `syncthing_conflicts.py` script utilizes the MacOS `terminal-notifier` package to alert users whenever there are conflict files. If SyncThing can't determine which version of a file to sync, it will create a duplicate file and append "syncthing-conflict" to the end of this file. This python script scans directories for files with that matching pattern and displays a notification via notification center alerting the user to the conflict.
