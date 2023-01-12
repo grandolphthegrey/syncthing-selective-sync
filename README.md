@@ -41,7 +41,7 @@ Each folder that will be selectively synced will have its own folder ID. The lin
 
 ## LaunchAgent
 
-To get this script to automatically use the `syncthing_events.plist` file as a template. This launch agent file will specify the Python script to run every minute and when changes are detected in any of the monitored folders (specified in the **Folder ID** section above) the script will re-generate the txt files of the direcotry structure and contents.
+To get this script to automatically use the `launch_agent_example.plist` file as a template. This launch agent file will specify the Python script to run every minute and when changes are detected in any of the monitored folders (specified in the **Folder ID** section above) the script will re-generate the txt files of the direcotry structure and contents.
 
 ## Example
 
