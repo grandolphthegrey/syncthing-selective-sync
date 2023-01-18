@@ -3,7 +3,7 @@
 """
 Created on 6 Nov 2022
 
-@author: George
+@author: George Randolph
 """
 
 import requests
