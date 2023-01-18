@@ -124,7 +124,7 @@ def main():
                     
                     curr_time = datetime.datetime.now().strftime('%Y-%m-%dT%H-%M')
                     
-                    print('shit aint equal on {}, yo. gonna make some new files. Logged this message at {}'.format(cwd, curr_time))
+                    print('files not equal on {}. making some new files. Logged this message at {}'.format(cwd, curr_time))
                     dir_only(cwd, fname, ignores_dir_array[ii])
                     all_content(cwd, fname, ignores_array[ii])
 
