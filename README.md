@@ -1,7 +1,7 @@
 # Syncthing Selective Sync Overview
 Python script to implement selective syncing with SyncThing `syncthing_events.py` script.
 
-Script to generate txt files of directory tree and full directory contents to be used for Selective Syncing in SyncThing. This script utilizes the Linux `tree` command to generate 4 text files that outline:
+This script generates txt files of directory tree and full directory contents to be used for Selective Syncing in SyncThing by leveraging SyncThing's ignore patters (see this URL for more information: https://docs.syncthing.net/users/ignoring). This script utilizes the Linux `tree` command to generate 4 text files that outline:
 
 * the full contents of a directory, sorted by last modified
 * the full contents of a direcotry, sorted alphabetically
